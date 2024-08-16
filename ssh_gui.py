@@ -2,9 +2,9 @@ import tkinter as tk
 from pynput.keyboard import Key, Listener
 import paramiko
 import time
-HOST = "192.168.160.141"
-USERNAME = "devops"
-PASSWORD = "Aa123456"
+HOST = "<YOUR-IP-ADDR>"
+USERNAME = "<USERNAME>"
+PASSWORD = "<PASSWORD>"
 
 def send_action(action, client):
     """
